@@ -1,0 +1,13 @@
+operation,database,avg_time,time_std,avg_results
+get_average_ratings,MongoDB,0.0173,,10000.0
+get_average_ratings,PostgreSQL,0.0902,,10000.0
+get_product_with_reviews,MongoDB,0.0005,0.0,1.0
+get_product_with_reviews,PostgreSQL,0.0005,0.0,31.0
+get_products_by_category,MongoDB,0.0603,0.0015,2007.6667
+get_products_by_category,PostgreSQL,0.0021,0.0001,2007.6667
+get_products_price_range,MongoDB,0.0079,0.0005,2440.3333
+get_products_price_range,PostgreSQL,0.0409,0.0042,2440.3333
+get_products_with_high_ratings,MongoDB,0.0069,0.0003,197.0
+get_products_with_high_ratings,PostgreSQL,0.0743,0.0005,197.0
+get_products_with_keyword_reviews,MongoDB,0.2968,0.0021,6014.0
+get_products_with_keyword_reviews,PostgreSQL,0.0432,0.0018,5418.0
